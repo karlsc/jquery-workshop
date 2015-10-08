@@ -14,11 +14,11 @@ announcements.each(function() {
         if ($button.text() === "X") {
 
             currentDiv.find("p").hide();
-            $(this).text("Show announcement");
+            $button.text("Show announcement");
         }
         else {
             currentDiv.find("p").show();
-            $(this).text("X");
+            $button.text("X");
         }
     });
 });
