@@ -1,1 +1,19 @@
-/* Write your code here */
+body {
+  margin: 0; }
+
+h1 {
+  background-color: #666;
+  padding: 0.5em;
+  font-family: sans-serif;
+  border-bottom: 5px dotted black;
+  margin: 0; }
+
+article {
+  padding: 0.5em;
+  text-align: justify; }
+  article h2 {
+    margin: 0; }
+  article p:not(:nth-child(2)) {
+    text-indent: 2em; }
+
+/*# sourceMappingURL=app.css.map */
