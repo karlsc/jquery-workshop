@@ -1,1 +1,13 @@
-/* Write your code here */
+div.announcement {
+  border: 2px solid #ccc;
+  background-color: tomato;
+  padding: 0.6em;
+  position: relative; }
+
+button {
+  border: 0px;
+  position: absolute;
+  top: 0px;
+  right: 0px; }
+
+/*# sourceMappingURL=app.css.map */
