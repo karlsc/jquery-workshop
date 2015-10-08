@@ -1,0 +1,45 @@
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body{
+    margin:0;
+}
+
+ul {
+    list-style:none;
+    margin:0;
+    padding:0.5em;
+}
+
+li {
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+li img {
+    width: 100%;
+    display: block;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.75);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display:none;
+    
+    p {
+        color:white;
+        text-align:center;
+        font-weight:bold;
+    }
+}
