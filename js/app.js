@@ -7,14 +7,9 @@ $('#signup-form').on('submit', function(event) {
         alert("Please select a password of at least 10 characters.");
         event.preventDefault();
     }
-    else {
-        
-        if($password !== $confirm){
+    else if($password !== $confirm){
             
-        }
-        else {
-            alert("Passwords not matching.");
-            event.preventDefault();
-        }
+        alert("Passwords not matching.");
+        event.preventDefault();
     }
 });
